@@ -5,7 +5,6 @@ pipeline {
             steps {
 		git branch: 'main',
 		    url: 'https://github.com/shgupta140-max/java-demo-ci.git'
-		    credentialsId: 'github-credentials'
             }
         }
         stage('Build') {
